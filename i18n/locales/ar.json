@@ -1,0 +1,618 @@
+{
+  "change_language": "تغيير اللغة",
+  "nav": {
+    "projects": "المشاريع",
+    "yourWork": "عملك",
+    "dashboard": "لوحة التحكم"
+  },
+  "common": {
+    "search": "بحث",
+    "more": "المزيد",
+    "saveFilter": "حفظ الفلتر",
+    "noResults": "لا توجد نتائج",
+    "clear": "مسح",
+    "apply": "تطبيق",
+    "assignToProject": "إسناد إلى مشروع",
+    "loading": "جارٍ التحميل...",
+    "itemsPerPage": "عناصر لكل صفحة",
+    "loadMoreRows": "تحميل المزيد من الصفوف",
+    "pagination": {
+      "first": "الصفحة الأولى",
+      "prev": "الصفحة السابقة",
+      "next": "الصفحة التالية",
+      "last": "الصفحة الأخيرة"
+    }
+  },
+  "validation": {
+    "pleaseFix": "يرجى تصحيح الأخطاء التالية:",
+    "emailRequired": "البريد الإلكتروني مطلوب",
+    "emailInvalid": "صيغة البريد الإلكتروني غير صحيحة",
+    "passwordRequired": "كلمة المرور مطلوبة",
+    "passwordMin": "يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+    "invalidCredentials": "بيانات تسجيل الدخول غير صحيحة"
+  },
+  "projects": {
+    "noResults": "لا توجد مشاريع"
+  },
+  "settings": {
+    "title": "الإعدادات"
+  },
+  "profile": {
+    "yourProfile": "ملفك الشخصي"
+  },
+  "theme": {
+    "darkMode": "الوضع الداكن"
+  },
+  "actions": {
+    "logout": "تسجيل الخروج",
+    "save": "حفظ",
+    "saving": "جارٍ الحفظ...",
+    "back": "رجوع",
+    "next": "التالي",
+    "cancel": "إلغاء"
+  },
+  "form": {
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "placeholder": {
+      "email": "'{'mail@@email.com'}'",
+      "password": "••••••",
+      "pleaseSelect": "يرجى الاختيار"
+    },
+    "active": "نشط",
+    "companyName": "اسم الشركة",
+    "contactName": "اسم جهة الاتصال",
+    "idNumber": "رقم الهوية",
+    "role": "الدور",
+    "projects": "المشاريع",
+    "phone1": "الهاتف 1",
+    "phone2": "الهاتف 2",
+    "address": "العنوان"
+  },
+  "companies": {
+    "list": {
+      "title": "دليل المؤسسة",
+      "breadcrumb": "الإعدادات",
+      "groupHint": "اسحب عنوان عمود هنا لتجميع الصفوف",
+      "loadFailed": "فشل تحميل الشركات.",
+      "deleteFailed": "فشل حذف الشركة"
+    },
+    "view": {
+      "title": "عرض بيانات الشركة",
+      "breadcrumb": "الإعدادات › دليل المؤسسة",
+      "loading": "جارٍ تحميل بيانات الشركة...",
+      "error": "فشل تحميل بيانات الشركة.",
+      "backToList": "الرجوع إلى القائمة",
+      "viewContacts": "عرض قائمة جهات الاتصال",
+      "edit": "تعديل",
+      "back": "رجوع"
+    },
+    "edit": {
+      "title": "تحديث بيانات الشركة",
+      "breadcrumb": "الإعدادات › دليل المؤسسة",
+      "loading": "جارٍ تحميل بيانات الشركة...",
+      "update": "تحديث",
+      "updating": "جارٍ التحديث...",
+      "updated": "تم تحديث بيانات الشركة بنجاح!",
+      "failed": "فشل تحديث بيانات الشركة",
+      "fixValidation": "يرجى تصحيح أخطاء التحقق",
+      "fixBeforeSubmit": "يرجى تصحيح أخطاء التحقق قبل الإرسال"
+    },
+    "add": {
+      "title": "إضافة بيانات الشركة",
+      "breadcrumb": "الإعدادات › دليل المؤسسة",
+      "success": "تم إنشاء الشركة بنجاح!"
+    },
+    "fields": {
+      "companyField": "مجال الشركة",
+      "selectCompanyField": "اختر مجال الشركة",
+      "nameEn": "الاسم بالإنجليزية",
+      "nameAr": "الاسم بالعربية",
+      "addressEn": "العنوان بالإنجليزية",
+      "addressAr": "العنوان بالعربية",
+      "registrationNumbers": "أرقام التسجيل",
+      "taxNumbers": "أرقام الضريبة",
+      "taxPercent": "نسبة الضريبة %",
+      "vatNumbers": "أرقام ضريبة القيمة المضافة",
+      "vatPercent": "نسبة ضريبة القيمة المضافة %",
+      "keyContactDetails": "بيانات جهة الاتصال الرئيسية",
+      "firstNameEn": "الاسم الأول (إنجليزي)",
+      "middleNameEn": "الاسم الأوسط (إنجليزي)",
+      "lastNameEn": "اسم العائلة (إنجليزي)",
+      "positionEn": "المنصب (إنجليزي)",
+      "firstNameAr": "الاسم الأول (عربي)",
+      "middleNameAr": "الاسم الأوسط (عربي)",
+      "lastNameAr": "اسم العائلة (عربي)",
+      "positionAr": "المنصب (عربي)"
+    },
+    "placeholders": {
+      "companyNameEn": "اسم الشركة بالإنجليزية",
+      "companyNameAr": "اسم الشركة بالعربية",
+      "companyAddress": "عنوان الشركة",
+      "companyRegistration": "أرقام تسجيل الشركة",
+      "companyTax": "أرقام ضريبة الشركة",
+      "positionEn": "منصب جهة الاتصال (إنجليزي)",
+      "positionAr": "منصب جهة الاتصال (عربي)",
+      "contactFirstEn": "الاسم الأول لجهة الاتصال (إنجليزي)",
+      "contactMiddleEn": "الاسم الأوسط لجهة الاتصال (إنجليزي)",
+      "contactLastEn": "اسم العائلة لجهة الاتصال (إنجليزي)",
+      "contactFirstAr": "الاسم الأول لجهة الاتصال (عربي)",
+      "contactMiddleAr": "الاسم الأوسط لجهة الاتصال (عربي)",
+      "contactLastAr": "اسم العائلة لجهة الاتصال (عربي)"
+    }
+  },
+  "auth": {
+    "welcome": "مرحباً",
+    "loginTitle": "أهلاً بك",
+    "loginSub": "تسجيل الدخول إلى حسابك",
+    "login": "تسجيل الدخول",
+    "loggingIn": "جارٍ تسجيل الدخول..."
+  },
+  "wbs": {
+    "common": {
+      "none": "لا شيء"
+    },
+    "aria": {
+      "toggle": "تبديل"
+    },
+    "confirm": {
+      "title": "هل أنت متأكد من حذف هذا الـ WBS؟"
+    },
+    "actions": {
+      "cancel": "إلغاء",
+      "delete": "حذف",
+      "reset": "إعادة تعيين",
+      "save": "حفظ",
+      "exportCsv": "تصدير CSV",
+      "bulkDelete": "حذف جماعي",
+      "addNew": "إضافة جديد",
+      "addNewProject": "إضافة مشروع جديد",
+      "addSub": "إضافة WBS فرعي",
+      "viewProjects": "عرض المشاريع",
+      "viewSubList": "عرض قائمة WBS الفرعية",
+      "loadMore": "تحميل المزيد"
+    },
+    "form": {
+      "parentEng": "WBS الأب (إنجليزي)",
+      "parentAr": "WBS الأب (عربي)",
+      "subTitleEn": "عنوان WBS الفرعي (إنجليزي)",
+      "titleEn": "العنوان (إنجليزي)",
+      "placeholderTitleEn": "عنوان WBS (إنجليزي)",
+      "subTitleAr": "عنوان WBS الفرعي (عربي)",
+      "titleAr": "عنوان WBS (عربي)",
+      "placeholderTitleAr": "عنوان WBS (عربي)",
+      "add": "إضافة",
+      "update": "تحديث",
+      "editTitle": "تعديل WBS",
+      "addSubTitle": "إضافة WBS فرعي",
+      "addNewTitle": "إضافة WBS جديد",
+      "pleaseFillAll": "يرجى تعبئة جميع الحقول"
+    },
+    "table": {
+      "searchPlaceholder": "ابحث في WBS...",
+      "filters": {
+        "name": "اسم WBS",
+        "code": "كود المشروع",
+        "status": "الحالة"
+      },
+      "headers": {
+        "no": "رقم",
+        "title": "العنوان",
+        "created": "تاريخ الإنشاء",
+        "createdBy": "أنشأه",
+        "updated": "تاريخ التحديث",
+        "updatedBy": "حدّثه",
+        "actions": "إجراءات"
+      },
+      "loading": "جارٍ تحميل بيانات WBS...",
+      "noItems": "لا توجد عناصر WBS",
+      "createFirst": "ابدأ بإنشاء أول عنصر WBS",
+      "rowsPerPage": "صفوف لكل صفحة",
+      "of": "من",
+      "firstPage": "الصفحة الأولى",
+      "prevPage": "الصفحة السابقة",
+      "nextPage": "الصفحة التالية",
+      "lastPage": "الصفحة الأخيرة"
+    }
+  },
+  "contacts": {
+    "header": {
+      "title": "قائمة جهات الاتصال",
+      "breadcrumb": "الإعدادات › دليل المؤسسة"
+    },
+    "form": {
+      "companyName": "اسم الشركة",
+      "contactDetails": "بيانات جهة الاتصال",
+      "firstNameEn": "الاسم الأول (إنجليزي)",
+      "firstNameAr": "الاسم الأول (عربي)",
+      "middleNameEn": "الاسم الأوسط (إنجليزي)",
+      "middleNameAr": "الاسم الأوسط (عربي)",
+      "lastNameEn": "اسم العائلة (إنجليزي)",
+      "lastNameAr": "اسم العائلة (عربي)",
+      "positionEn": "المنصب (إنجليزي)",
+      "positionAr": "المنصب (عربي)",
+      "addressEn": "العنوان (إنجليزي)",
+      "addressAr": "العنوان (عربي)",
+      "email": "البريد الإلكتروني",
+      "phone1": "الهاتف 1",
+      "phone2": "الهاتف 2",
+      "keyContact": "جهة اتصال رئيسية"
+    },
+    "placeholders": {
+      "companyName": "اسم الشركة",
+      "firstNameEn": "الاسم الأول (إنجليزي)",
+      "middleNameEn": "الاسم الأوسط لجهة الاتصال (إنجليزي)",
+      "firstNameAr": "الاسم الأول لجهة الاتصال (عربي)",
+      "middleNameAr": "الاسم الأوسط لجهة الاتصال (عربي)",
+      "lastNameEn": "اسم عائلة جهة الاتصال (إنجليزي)",
+      "lastNameAr": "اسم عائلة جهة الاتصال (عربي)",
+      "positionEn": "منصب جهة الاتصال (إنجليزي)",
+      "positionAr": "منصب جهة الاتصال (عربي)",
+      "addressEn": "العنوان (إنجليزي)",
+      "addressAr": "العنوان (عربي)",
+      "email": "'{'mail@@email.com'}'",
+      "phone": "(000) 000-0000"
+    },
+    "labels": {
+      "keyContact": "جهة اتصال رئيسية"
+    },
+    "country": {
+      "search": "بحث عن دولة"
+    },
+    "actions": {
+      "cancel": "إلغاء",
+      "save": "حفظ",
+      "update": "تحديث",
+      "addContact": "إضافة جهة اتصال",
+      "export": "تصدير",
+      "view": "عرض",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "filters": {
+      "search": "ابحث في جهات الاتصال...",
+      "allCompanies": "كل الشركات",
+      "allPositions": "كل المناصب",
+      "allContacts": "كل جهات الاتصال",
+      "keyContacts": "الجهات الرئيسية",
+      "regularContacts": "جهات عادية"
+    },
+    "stats": {
+      "total": "إجمالي الجهات",
+      "key": "الجهات الرئيسية"
+    },
+    "table": {
+      "headers": {
+        "contact": "الجهة",
+        "company": "الشركة",
+        "position": "المنصب",
+        "email": "البريد الإلكتروني",
+        "phone": "الهاتف",
+        "status": "الحالة",
+        "actions": "إجراءات"
+      },
+      "id": "المعرف"
+    },
+    "badges": {
+      "key": "رئيسي",
+      "regular": "عادي"
+    },
+    "empty": {
+      "noResults": "لا توجد جهات اتصال",
+      "hint": "حاول تعديل البحث أو المرشحات"
+    },
+    "pagination": {
+      "page": "الصفحة",
+      "of": "من",
+      "total": "إجمالي",
+      "prev": "السابق",
+      "next": "التالي"
+    },
+    "modals": {
+      "view": "عرض جهة الاتصال",
+      "add": "إضافة جهة اتصال",
+      "update": "تحديث جهة الاتصال"
+    },
+    "delete": {
+      "title": "هل أنت متأكد من حذف جهة الاتصال؟",
+      "message": "لا يمكن التراجع عن هذه العملية."
+    },
+    "messages": {
+      "loadFailed": "فشل تحميل جهات الاتصال",
+      "created": "تم إنشاء جهة الاتصال بنجاح",
+      "createFailed": "فشل إنشاء جهة الاتصال",
+      "missingId": "معرّف جهة الاتصال مفقود",
+      "updated": "تم تحديث جهة الاتصال بنجاح",
+      "updateFailed": "فشل تحديث جهة الاتصال",
+      "deleted": "تم حذف جهة الاتصال بنجاح",
+      "deleteFailed": "فشل حذف جهة الاتصال"
+    },
+    "validation": {
+      "required": "مطلوب",
+      "invalidEmail": "بريد إلكتروني غير صالح",
+      "invalidPhone": "صيغة رقم غير صحيحة (7-15 رقم)"
+    }
+  },
+  "users": {
+    "header": {
+      "title": "المستخدمون",
+      "settings": "الإعدادات",
+      "users": "المستخدمون",
+      "editUser": "تعديل المستخدم"
+    },
+    "grouping": {
+      "help": "اسحب عنوان عمود هنا لتجميع الصفوف"
+    },
+    "table": {
+      "no": "رقم",
+      "status": "الحالة",
+      "userName": "اسم المستخدم",
+      "role": "الدور",
+      "companyName": "اسم الشركة",
+      "contactName": "اسم جهة الاتصال",
+      "position": "المنصب"
+    },
+    "filters": {
+      "status": "الحالة",
+      "userName": "اسم المستخدم",
+      "role": "الدور",
+      "companyName": "اسم الشركة",
+      "contactName": "اسم جهة الاتصال",
+      "position": "المنصب"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
+    "messages": {
+      "loadFailed": "فشل تحميل المستخدمين.",
+      "selectAtLeastOne": "يرجى اختيار عنصر واحد على الأقل",
+      "deleteFailed": "فشل حذف المستخدم",
+      "noData": "لا توجد بيانات"
+    },
+    "confirm": {
+      "delete": "هل أنت متأكد من حذف {entity}؟ ({label})",
+      "deleteModule": "هل أنت متأكد من حذف هذا الجزء؟"
+    },
+    "seo": {
+      "title": "المستخدمون - نظام الإدارة",
+      "description": "إدارة قائمة المستخدمين"
+    },
+    "roles": {
+      "admin": "مسؤول",
+      "user": "مستخدم"
+    },
+    "sample": {
+      "projectA": "المشروع أ",
+      "projectB": "المشروع ب",
+      "projectC": "المشروع ج"
+    },
+    "steps": {
+      "account": "الحساب",
+      "assignProjects": "إسناد المشاريع",
+      "alerts": "التنبيهات / الإشعارات"
+    },
+    "tabs": {
+      "account": "الحساب",
+      "projects": "المشاريع",
+      "alerts": "التنبيهات"
+    },
+    "notifications": {
+      "emailTitle": "إشعارات البريد الإلكتروني",
+      "emailDesc": "تحكم في متى يستلم هذا المستخدم إشعارات البريد الإلكتروني. يمكنك تغيير الإعدادات في أي وقت.",
+      "generalTitle": "إشعارات عامة",
+      "receiveEmailsWhen": "تصل رسائل البريد الإلكتروني عندما:",
+      "assigneeInbox": "يكون المكلّف بوثيقة في \"التوقيعات المعلقة\".",
+      "receivesDocument": "يتلقى وثيقة في صندوق الوارد.",
+      "documentInGroup": "يتلقى وثيقة في مجموعة التوزيع.",
+      "previouslySignedUpdated": "تم تحديث وثيقة قام بالتوقيع عليها سابقاً.",
+      "deadlineExceeded": "تم تجاوز الموعد النهائي لخطوة في سير العمل.",
+      "projectsTitle": "إشعارات المشاريع والنماذج",
+      "receiveFor": "تصل الرسائل من أجل:",
+      "allProjects": "جميع المشاريع",
+      "selectedProjects": "مشاريع محددة",
+      "formsTab": "النماذج",
+      "formTitle": "عنوان النموذج",
+      "documentCreated": "تم إنشاء الوثيقة",
+      "documentUpdated": "تم تحديث الوثيقة",
+      "documentDeleted": "تم حذف الوثيقة",
+      "workflowStarted": "بدأ سير العمل",
+      "workflowCompleted": "اكتمل سير العمل",
+      "projectsDropdown": "المشاريع"
+    },
+    "fields": {
+      "userName": "اسم المستخدم",
+      "companyName": "اسم الشركة",
+      "contactName": "اسم جهة الاتصال",
+      "idNumber": "رقم الهوية",
+      "role": "الدور",
+      "password": "كلمة المرور",
+      "active": "نشط",
+      "projects": "المشاريع",
+      "emailNotifications": "إشعارات البريد الإلكتروني",
+      "smsNotifications": "إشعارات الرسائل القصيرة",
+      "changePassword": "تغيير كلمة المرور",
+      "loginHistory": "سجل تسجيل الدخول"
+    },
+    "changePassword": {
+      "title": "تغيير كلمة المرور",
+      "newPassword": "كلمة المرور الجديدة",
+      "confirmPassword": "تأكيد كلمة المرور"
+    }
+  },
+  "modules": {
+    "header": {
+      "title": "الوحدات",
+      "subtitle": "الإعدادات"
+    },
+    "common": {
+      "none": "لا شيء"
+    },
+    "toolbar": {
+      "refreshTitle": "تحديث"
+    },
+    "actions": {
+      "add": "إضافة",
+      "delete": "حذف",
+      "reset": "إعادة تعيين",
+      "save": "حفظ",
+      "saving": "جارٍ الحفظ...",
+      "cancel": "إلغاء"
+    },
+    "fields": {
+      "titleEn": "عنوان الوحدة (إنجليزي)",
+      "titleAr": "عنوان الوحدة (عربي)",
+      "order": "ترتيب الوحدة"
+    },
+    "validation": {
+      "required": "مطلوب",
+      "mustBeNumber": "يجب أن يكون رقمًا"
+    },
+    "table": {
+      "no": "رقم",
+      "title": "العنوان",
+      "updatedAt": "تاريخ التحديث",
+      "updatedBy": "حدّثه",
+      "createdAt": "تاريخ الإنشاء",
+      "createdBy": "أنشأه",
+      "loading": "جارٍ التحميل...",
+      "noData": "لا توجد بيانات"
+    },
+    "modals": {
+      "addTitle": "إضافة وحدة جديدة",
+      "editTitle": "تعديل الوحدة"
+    },
+    "pagination": {
+      "of": "من"
+    },
+    "messages": {
+      "loadFailed": "فشل تحميل الوحدات",
+      "createFailed": "فشلت عملية الإنشاء",
+      "updateFailed": "فشلت عملية التحديث",
+      "deleteFailed": "فشلت عملية الحذف",
+      "deleted": "تم الحذف",
+      "moduleCreated": "تم إنشاء الوحدة",
+      "moduleUpdated": "تم تحديث الوحدة"
+    }
+  },
+  "projectsAdd": {
+    "header": {
+      "settings": "الإعدادات",
+      "wbsLog": "سجل WBS",
+      "projectsLog": "سجل المشاريع",
+      "title": "إضافة مشروع جديد - {name}",
+      "viewProjects": "عرض المشاريع",
+      "moreActions": "إجراءات أخرى"
+    },
+    "form": {
+      "nameEn": "الاسم بالإنجليزية",
+      "nameAr": "الاسم بالعربية",
+      "referenceNumber": "رقم المرجع",
+      "projectType": "نوع المشروع",
+      "contractValue": "قيمة العقد",
+      "country": "الدولة",
+      "companyField": "مجال الشركة",
+      "pmCompany": "شركة مدير المشروع",
+      "pm": "مدير المشروع",
+      "description": "الوصف",
+      "active": "نشط",
+      "toggleActive": "تبديل الحالة",
+      "upload": {
+        "hint": "يمكنك رفع صورة واحدة فقط",
+        "choose": "اختر ملفًا أو اسحبه وأفلته هنا",
+        "types": "JPEG, PNG، حتى 1MB",
+        "uploading": "جارٍ الرفع...",
+        "uploaded": "تم رفع الشعار (المعرف: {id})"
+      },
+      "placeholders": {
+        "nameEn": "الاسم بالإنجليزية",
+        "nameAr": "الاسم بالعربية",
+        "referenceNumber": "رقم المرجع",
+        "contractValue": "قيمة العقد",
+        "description": "الوصف",
+        "pleaseSelect": "يرجى الاختيار",
+        "pleaseSelectCompanyName": "يرجى اختيار اسم الشركة."
+      }
+    },
+    "actions": {
+      "save": "حفظ"
+    }
+  },
+  "projectsEdit": {
+    "header": {
+      "title": "تحديث بيانات المشروع"
+    },
+    "tabs": {
+      "details": "تفاصيل المشروع",
+      "assignees": "المكلّفون"
+    },
+    "assignees": {
+      "companyName": "اسم الشركة",
+      "contactName": "اسم جهة الاتصال",
+      "pleaseSelectCompany": "يرجى اختيار الشركة.",
+      "add": "إضافة"
+    }
+  },
+  "customLists": {
+    "header": {
+      "title": "القوائم المخصصة",
+      "settings": "الإعدادات"
+    },
+    "filters": {
+      "name": "اسم القائمة المخصصة",
+      "status": "الحالة",
+      "createdAt": "تاريخ الإنشاء"
+    },
+    "table": {
+      "no": "رقم",
+      "title": "العنوان",
+      "status": "الحالة",
+      "createdAt": "تاريخ الإنشاء",
+      "createdBy": "أنشأه",
+      "updatedAt": "تاريخ التحديث",
+      "updatedBy": "حدّثه"
+    },
+    "actions": {
+      "add": "إضافة",
+      "reset": "إعادة تعيين",
+      "saveFilter": "حفظ الفلتر",
+      "loadMore": "تحميل المزيد من الصفوف",
+      "update": "تحديث",
+      "save": "حفظ",
+      "cancel": "إلغاء"
+    },
+    "modals": {
+      "addTitle": "إضافة قائمة مخصصة جديدة",
+      "editTitle": "تحديث القائمة المخصصة",
+      "listTitleEn": "عنوان القائمة (إنجليزي)",
+      "listTitleAr": "عنوان القائمة (عربي)",
+      "active": "نشط"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
+    "confirm": {
+      "delete": "هل أنت متأكد من حذف هذه القائمة المخصصة؟"
+    },
+    "grouping": {
+      "help": "اسحب عنوان عمود هنا لتجميع الصفوف"
+    },
+    "rowMenu": {
+      "addItem": "إضافة عنصر جديد",
+      "viewItems": "عرض العناصر",
+      "delete": "حذف"
+    },
+    "items": {
+      "modal": {
+        "addTitle": "إضافة عنصر جديد",
+        "updateTitle": "تحديث العنصر",
+        "listName": "اسم القائمة",
+        "itemNameEn": "اسم العنصر (إنجليزي)",
+        "itemNameAr": "اسم العنصر (عربي)",
+        "active": "نشط",
+        "setDefault": "تعيينه كافتراضي"
+      }
+    }
+  }
+}

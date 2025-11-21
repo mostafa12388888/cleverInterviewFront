@@ -1,0 +1,669 @@
+{
+  "change_language": "Change Language",
+  "nav": {
+    "projects": "Projects",
+    "yourWork": "Your work",
+    "dashboard": "Dashboard"
+  },
+  "common": {
+    "search": "Search",
+    "more": "More",
+    "saveFilter": "Save Filter",
+    "noResults": "No results found",
+    "clear": "Clear",
+    "apply": "Apply",
+    "assignToProject": "Assign To Project",
+    "loading": "Loading...",
+    "itemsPerPage": "Items per page",
+    "pagination": {
+      "first": "First page",
+      "prev": "Previous page",
+      "next": "Next page",
+      "last": "Last page"
+    },
+    "loadMoreRows": "Load More Rows"
+  },
+  "projects": {
+    "noResults": "No projects found"
+  },
+  "settings": {
+    "title": "Settings"
+  },
+  "profile": {
+    "yourProfile": "Your Profile"
+  },
+  "theme": {
+    "darkMode": "Dark Mode"
+  },
+  "actions": {
+    "logout": "Logout",
+    "save": "Save",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next"
+  },
+  "validation": {
+    "pleaseFix": "Please fix the following errors:",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Invalid email format",
+    "passwordRequired": "Password is required",
+    "passwordMin": "Password must be at least 6 characters",
+    "passwordMismatch": "Passwords do not match.",
+    "invalidCredentials": "Invalid login credentials"
+  },
+  "form": {
+    "email": "Email",
+    "password": "Password",
+    "placeholder": {
+      "email": "'{'mail@@email.com'}'",
+      "password": "••••••",
+      "pleaseSelect": "Please select"
+    },
+    "active": "Active",
+    "companyName": "Company name",
+    "contactName": "Contact name",
+    "idNumber": "ID Number",
+    "role": "Role",
+    "projects": "Projects",
+    "phone1": "Phone 1",
+    "phone2": "Phone 2",
+    "address": "Address"
+  },
+  "companies": {
+    "add": {
+      "title": "Add Company Details",
+      "breadcrumb": "Settings › Enterprise directory",
+      "success": "Company created successfully!"
+    },
+    "list": {
+      "title": "Enterprise directory",
+      "breadcrumb": "Settings",
+      "groupHint": "Drag a column header here to set row groups",
+      "loadFailed": "Failed to load companies.",
+      "deleteFailed": "Failed to delete company"
+    },
+    "view": {
+      "title": "View Company Details",
+      "breadcrumb": "Settings › Enterprise directory",
+      "loading": "Loading company details...",
+      "error": "Failed to load company details.",
+      "backToList": "Back to List",
+      "viewContacts": "View Contact list",
+      "edit": "Edit",
+      "back": "Back"
+    },
+    "edit": {
+      "title": "Update Company Details",
+      "breadcrumb": "Settings › Enterprise directory",
+      "loading": "Loading company data...",
+      "update": "Update",
+      "updating": "Updating...",
+      "updated": "Company updated successfully!",
+      "failed": "Failed to update company",
+      "fixValidation": "Please fix the validation errors",
+      "fixBeforeSubmit": "Please fix the validation errors before submitting"
+    },
+    "fields": {
+      "companyField": "Company Field",
+      "selectCompanyField": "Select company field",
+      "nameEn": "Name ENG",
+      "nameAr": "Name AR",
+      "addressEn": "Address ENG",
+      "addressAr": "Address AR",
+      "registrationNumbers": "Registration Numbers",
+      "taxNumbers": "TAX Numbers",
+      "taxPercent": "TAX %",
+      "vatNumbers": "VAT Numbers",
+      "vatPercent": "VAT %",
+      "keyContactDetails": "Key Contact Details",
+      "firstNameEn": "First name ENG",
+      "middleNameEn": "Middle Name ENG",
+      "lastNameEn": "Last Name ENG",
+      "positionEn": "Position ENG",
+      "firstNameAr": "First Name AR",
+      "middleNameAr": "Middle Name AR",
+      "lastNameAr": "Last Name AR",
+      "positionAr": "Position AR"
+    },
+    "placeholders": {
+      "companyNameEn": "Company name ENG",
+      "companyNameAr": "Company name AR",
+      "companyAddress": "Company address",
+      "companyRegistration": "Company registration numbers",
+      "companyTax": "Company TAX numbers",
+      "positionEn": "Contact Position ENG",
+      "positionAr": "Contact Position AR",
+      "contactFirstEn": "Contact First name ENG",
+      "contactMiddleEn": "Contact middle name ENG",
+      "contactLastEn": "Contact last name ENG",
+      "contactFirstAr": "Contact first name AR",
+      "contactMiddleAr": "Contact middle name AR",
+      "contactLastAr": "Contact last name AR"
+    }
+  },
+  "users_old": {
+    "header": {
+      "settings": "Settings",
+      "users": "Users"
+    },
+    "steps": {
+      "account": "Account",
+      "assignProjects": "Assign Projects",
+      "alerts": "Alerts / Notifications"
+    },
+    "tabs": {
+      "account": "Account",
+      "projects": "Assign Project",
+      "alerts": "Alerts / Notifications"
+    },
+    "fields": {
+      "userName": "User name",
+      "companyName": "Company name",
+      "contactName": "Contact name",
+      "idNumber": "ID Number",
+      "role": "Role",
+      "password": "Password",
+      "projects": "Projects",
+      "active": "Active",
+      "emailNotifications": "Email notifications",
+      "smsNotifications": "SMS notifications",
+      "changePassword": "Change Password",
+      "loginHistory": "Login history"
+    },
+    "changePassword": {
+      "title": "Change user password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "messages": {
+      "noData": "No data",
+      "saving": "Saving...",
+      "save": "Save"
+    }
+  },
+  "auth": {
+    "welcome": "Welcome",
+    "loginTitle": "Welcome",
+    "loginSub": "Sign in to your account",
+    "login": "Login",
+    "loggingIn": "Logging in...",
+    "loginSuccess": "Welcome {name}! Login successful",
+    "user": "User"
+  },
+  "wbs": {
+    "common": {
+      "none": "None"
+    },
+    "aria": {
+      "toggle": "Toggle"
+    },
+    "confirm": {
+      "title": "Are you sure you need to delete this WBS?"
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "reset": "Reset",
+      "save": "Save",
+      "exportCsv": "Export CSV",
+      "bulkDelete": "Bulk Delete",
+      "addNew": "Add New",
+      "addNewProject": "Add new project",
+      "addSub": "Add Sub WBS",
+      "viewProjects": "View projects",
+      "viewSubList": "View Sub WBS List",
+      "loadMore": "Load More"
+    },
+    "form": {
+      "parentEng": "Parent WBS ENG",
+      "parentAr": "Parent WBS AR",
+      "subTitleEn": "Sub WBS title ENG",
+      "titleEn": "Title ENG",
+      "placeholderTitleEn": "WBS title ENG",
+      "subTitleAr": "Sub WBS title AR",
+      "titleAr": "WBS title AR",
+      "placeholderTitleAr": "WBS title AR",
+      "add": "Add",
+      "update": "Update",
+      "editTitle": "Edit WBS",
+      "addSubTitle": "Add Sub WBS",
+      "addNewTitle": "Add New WBS",
+      "pleaseFillAll": "Please fill all fields"
+    },
+    "table": {
+      "searchPlaceholder": "Search WBS...",
+      "filters": {
+        "name": "WBS Name",
+        "code": "Project Code",
+        "status": "Status"
+      },
+      "headers": {
+        "no": "NO.",
+        "title": "Title",
+        "created": "Created",
+        "createdBy": "Created by",
+        "updated": "Updated",
+        "updatedBy": "Updated by",
+        "actions": "Actions"
+      },
+      "loading": "Loading WBS data...",
+      "noItems": "No WBS items found",
+      "createFirst": "Create your first WBS item to get started",
+      "rowsPerPage": "Rows per page",
+      "of": "of",
+      "firstPage": "First page",
+      "prevPage": "Previous page",
+      "nextPage": "Next page",
+      "lastPage": "Last page"
+    }
+  },
+  "contacts": {
+    "header": {
+      "title": "Contact List",
+      "breadcrumb": "Settings › Enterprise directory"
+    },
+    "form": {
+      "companyName": "Company Name",
+      "contactDetails": "Contact Details",
+      "firstNameEn": "First name ENG",
+      "firstNameAr": "First Name AR",
+      "middleNameEn": "Middle Name ENG",
+      "middleNameAr": "Middle Name AR",
+      "lastNameEn": "Last Name ENG",
+      "lastNameAr": "Last Name AR",
+      "positionEn": "Position ENG",
+      "positionAr": "Position AR",
+      "addressEn": "Address ENG",
+      "addressAr": "Address AR",
+      "email": "Email",
+      "phone1": "Phone 1",
+      "phone2": "Phone 2",
+      "keyContact": "Key Contact"
+    },
+    "placeholders": {
+      "companyName": "Company name",
+      "firstNameEn": "First name ENG",
+      "middleNameEn": "Contact middle name ENG",
+      "firstNameAr": "Contact first name AR",
+      "middleNameAr": "Contact middle name AR",
+      "lastNameEn": "Contact last name ENG",
+      "lastNameAr": "Contact last name AR",
+      "positionEn": "Contact Position ENG",
+      "positionAr": "Contact Position AR",
+      "addressEn": "Address ENG",
+      "addressAr": "Address AR",
+      "email": "'{'mail@@email.com'}'",
+      "phone": "(000) 000-0000"
+    },
+    "labels": {
+      "keyContact": "Key Contact"
+    },
+    "country": {
+      "search": "Search country"
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "save": "Save",
+      "update": "Update",
+      "addContact": "Add Contact",
+      "export": "Export",
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "filters": {
+      "search": "Search contacts...",
+      "allCompanies": "All companies",
+      "allPositions": "All positions",
+      "allContacts": "All Contacts",
+      "keyContacts": "Key Contacts",
+      "regularContacts": "Regular Contacts"
+    },
+    "stats": {
+      "total": "Total Contacts",
+      "key": "Key Contacts"
+    },
+    "table": {
+      "headers": {
+        "contact": "Contact",
+        "company": "Company",
+        "position": "Position",
+        "email": "Email",
+        "phone": "Phone",
+        "status": "Status",
+        "actions": "Actions"
+      },
+      "id": "ID"
+    },
+    "badges": {
+      "key": "Key",
+      "regular": "Regular"
+    },
+    "empty": {
+      "noResults": "No contacts found",
+      "hint": "Try adjusting your search or filters"
+    },
+    "pagination": {
+      "page": "Page",
+      "of": "of",
+      "total": "total",
+      "prev": "Prev",
+      "next": "Next"
+    },
+    "modals": {
+      "view": "View Contact",
+      "add": "Add Contact",
+      "update": "Update Contact"
+    },
+    "delete": {
+      "title": "Are you sure to delete contact?",
+      "message": "This action cannot be undone."
+    },
+    "messages": {
+      "loadFailed": "Failed to load contacts",
+      "created": "Contact created successfully",
+      "createFailed": "Failed to create contact",
+      "missingId": "Missing contact id",
+      "updated": "Contact updated successfully",
+      "updateFailed": "Failed to update contact",
+      "deleted": "Contact deleted successfully",
+      "deleteFailed": "Failed to delete contact"
+    },
+    "validation": {
+      "required": "Required",
+      "invalidEmail": "Invalid email",
+      "invalidPhone": "Invalid phone format (7-15 digits)"
+    }
+  },
+  "users": {
+    "header": {
+      "title": "Users",
+      "settings": "Settings",
+      "users": "Users",
+      "editUser": "Edit User"
+    },
+    "grouping": {
+      "help": "Drag a column header here to set row groups"
+    },
+    "table": {
+      "no": "NO.",
+      "status": "Status",
+      "userName": "User name",
+      "role": "Role",
+      "companyName": "Company name",
+      "contactName": "Contact name",
+      "position": "Position"
+    },
+    "filters": {
+      "status": "Status",
+      "userName": "User name",
+      "role": "Role",
+      "companyName": "Company name",
+      "contactName": "Contact name",
+      "position": "Position"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "messages": {
+      "loadFailed": "Failed to load users.",
+      "selectAtLeastOne": "Please select at least one item",
+      "deleteFailed": "Failed to delete user",
+      "noData": "No data"
+    },
+    "confirm": {
+      "delete": "Are you sure you need to delete this {entity}? ({label})",
+      "deleteModule": "Are you sure you need to delete this module?"
+    },
+    "seo": {
+      "title": "Users - Management System",
+      "description": "Manage users list"
+    },
+    "roles": {
+      "admin": "Admin",
+      "user": "User"
+    },
+    "steps": {
+      "account": "Account",
+      "assignProjects": "Assign Projects",
+      "alerts": "Alerts / Notifications"
+    },
+    "sample": {
+      "projectA": "Project A",
+      "projectB": "Project B",
+      "projectC": "Project C"
+    },
+    "tabs": {
+      "account": "Account",
+      "projects": "Projects",
+      "alerts": "Alerts"
+    },
+    "notifications": {
+      "emailTitle": "Email notifications",
+      "emailDesc": "Control when this user receives email notifications. You can change settings at any time.",
+      "generalTitle": "General notifications",
+      "receiveEmailsWhen": "Receive emails when:",
+      "assigneeInbox": "He is the assignee for a document in the \"Pending Signatures\".",
+      "receivesDocument": "He receives a document in the inbox.",
+      "documentInGroup": "He receives a document in distribution group.",
+      "previouslySignedUpdated": "If a document he previously signed has been updated.",
+      "deadlineExceeded": "If the deadline for a workflow step is exceeded.",
+      "projectsTitle": "Projects and forms notifications",
+      "receiveFor": "Receive emails for:",
+      "allProjects": "All projects",
+      "selectedProjects": "Selected projects",
+      "formsTab": "Forms",
+      "formTitle": "Form title",
+      "documentCreated": "Document created",
+      "documentUpdated": "Document updated",
+      "documentDeleted": "Document deleted",
+      "workflowStarted": "Workflow started",
+      "workflowCompleted": "Workflow completed",
+      "projectsDropdown": "Projects"
+    },
+    "fields": {
+      "userName": "User name",
+      "companyName": "Company name",
+      "contactName": "Contact name",
+      "idNumber": "ID Number",
+      "role": "Role",
+      "password": "Password",
+      "active": "Active",
+      "projects": "Projects",
+      "emailNotifications": "Email notifications",
+      "smsNotifications": "SMS notifications",
+      "changePassword": "Change password",
+      "loginHistory": "Login history"
+    },
+    "changePassword": {
+      "title": "Change Password",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm password"
+    }
+  },
+  "modules": {
+    "header": {
+      "title": "Modules",
+      "subtitle": "Settings"
+    },
+    "common": {
+      "none": "None"
+    },
+    "toolbar": {
+      "refreshTitle": "Refresh"
+    },
+    "actions": {
+      "add": "Add",
+      "delete": "Delete",
+      "reset": "Reset",
+      "save": "Save",
+      "saving": "Saving...",
+      "cancel": "Cancel"
+    },
+    "fields": {
+      "titleEn": "Module title ENG",
+      "titleAr": "Module title AR",
+      "order": "Module order"
+    },
+    "validation": {
+      "required": "Required",
+      "mustBeNumber": "Must be a number"
+    },
+    "table": {
+      "no": "NO.",
+      "title": "Title",
+      "updatedAt": "Updated at",
+      "updatedBy": "Updated by",
+      "createdAt": "Created at",
+      "createdBy": "Created by",
+      "loading": "Loading...",
+      "noData": "No data"
+    },
+    "modals": {
+      "addTitle": "Add new module",
+      "editTitle": "Edit module"
+    },
+    "pagination": {
+      "of": "of",
+      "rowsPerPage": "Rows per page"
+    },
+    "messages": {
+      "loadFailed": "Failed to load modules",
+      "createFailed": "Create failed",
+      "updateFailed": "Update failed",
+      "deleteFailed": "Delete failed",
+      "deleted": "Deleted",
+      "moduleCreated": "Module created",
+      "moduleUpdated": "Module updated"
+    }
+  },
+  "projectsAdd": {
+    "header": {
+      "settings": "Settings",
+      "wbsLog": "WBS Log",
+      "projectsLog": "Projects Log",
+      "title": "Add new project - {name}",
+      "viewProjects": "View projects",
+      "moreActions": "More actions"
+    },
+    "form": {
+      "nameEn": "Name ENG",
+      "nameAr": "Name AR",
+      "referenceNumber": "Reference number",
+      "projectType": "Project type",
+      "contractValue": "Contract value",
+      "country": "Country",
+      "companyField": "Company field",
+      "pmCompany": "Project manager company",
+      "pm": "Project manager",
+      "description": "Description",
+      "active": "Active",
+      "toggleActive": "Toggle Active",
+      "upload": {
+        "hint": "You can only upload one photo",
+        "choose": "Choose a file or drag & drop it here",
+        "types": "JPEG, PNG, up to 1MB",
+        "uploading": "Uploading...",
+        "uploaded": "Logo uploaded (ID: {id})"
+      },
+      "placeholders": {
+        "nameEn": "Name ENG",
+        "nameAr": "Name AR",
+        "referenceNumber": "Reference number",
+        "contractValue": "Contract value",
+        "description": "Description",
+        "pleaseSelect": "Please select",
+        "pleaseSelectCompanyName": "Please select company name."
+      }
+    },
+    "actions": {
+      "save": "Save"
+    }
+  },
+  "projectsEdit": {
+    "header": {
+      "title": "Update project details"
+    },
+    "tabs": {
+      "details": "Project details",
+      "assignees": "Assignees"
+    },
+    "assignees": {
+      "companyName": "Company name",
+      "contactName": "Contact name",
+      "pleaseSelectCompany": "Please select company.",
+      "add": "Add",
+      "remove": "Remove",
+      "empty": "No data available",
+      "table": {
+        "no": "NO.",
+        "companies": "Companies",
+        "contacts": "Contacts"
+      }
+    }
+  },
+  "customLists": {
+    "header": {
+      "title": "Custom lists",
+      "settings": "Settings"
+    },
+    "filters": {
+      "name": "Custom list name",
+      "status": "Status",
+      "createdAt": "Created at"
+    },
+    "table": {
+      "no": "NO.",
+      "title": "Title",
+      "status": "Status",
+      "createdAt": "Created at",
+      "createdBy": "Created by",
+      "updatedAt": "Updated at",
+      "updatedBy": "Updated by"
+    },
+    "actions": {
+      "add": "Add",
+      "reset": "Reset",
+      "saveFilter": "Save Filter",
+      "loadMore": "Load More Rows",
+      "update": "Update",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "modals": {
+      "addTitle": "Add new custom list",
+      "editTitle": "Update custom list",
+      "listTitleEn": "List title ENG",
+      "listTitleAr": "List title AR",
+      "active": "Active"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "confirm": {
+      "delete": "Are you sure you need to delete this custom list?"
+    },
+    "grouping": {
+      "help": "Drag a column header here to set row groups"
+    },
+    "rowMenu": {
+      "addItem": "Add new item",
+      "viewItems": "View items",
+      "delete": "Delete"
+    },
+    "items": {
+      "modal": {
+        "addTitle": "Add new item",
+        "updateTitle": "Update item",
+        "listName": "List name",
+        "itemNameEn": "Item name ENG",
+        "itemNameAr": "Item name AR",
+        "active": "Active",
+        "setDefault": "Set as default"
+      }
+    }
+  }
+}
